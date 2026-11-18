@@ -1,0 +1,50 @@
+{
+  "tipo": "SARIMAX (statsmodels)",
+  "order": [
+    1,
+    0,
+    2
+  ],
+  "seasonal_order": [
+    0,
+    1,
+    1,
+    24
+  ],
+  "trend": null,
+  "enforce_stationarity": false,
+  "enforce_invertibility": false,
+  "freq": "h",
+  "params": {
+    "ar.L1": 0.5108855039793196,
+    "ma.L1": -0.18190650815915424,
+    "ma.L2": 0.03108270825870759,
+    "ma.S.L24": -1.000000960555496,
+    "sigma2": 4783.912116359026
+  },
+  "measurement": "Server",
+  "field": "Consumo_total",
+  "tag": null,
+  "n_observaciones": 720,
+  "rango_entrenamiento": {
+    "inicio": "2026-10-19 02:00:00",
+    "fin": "2026-11-18 01:00:00"
+  },
+  "metricas_test": {
+    "MAE": 68.7806,
+    "RMSE": 100.0042,
+    "MAPE_%": 18.7044
+  },
+  "metricas_ingenua": {
+    "MAE": 92.8439,
+    "RMSE": 124.4381,
+    "MAPE_%": 26.1277
+  },
+  "aic": 7641.853140423398,
+  "entrenado_en": "2026-11-18 02:55 UTC",
+  "versiones": {
+    "statsmodels": "0.15.0",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6"
+  }
+}
