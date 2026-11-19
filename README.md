@@ -51,7 +51,13 @@ La API ya está hecha: consulta InfluxDB, carga tu modelo y entrega el pronósti
 ```
 
 ---
+## 🎥 Video de demostración
 
+**Enlace al video:** [Ver demostración del proyecto](https://youtu.be/MJhHbETJ8e4)
+
+> Video de sustentación del proyecto final de Computación Avanzada (ET0197). Se demuestra el funcionamiento de la aplicación sin Docker y dentro de un contenedor Docker.
+
+---
 ## Fase 0 — Preparar tu repositorio
 
 ### 0.1 Crea tu copia y abre el Codespace
